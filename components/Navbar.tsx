@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled';
+import Link from 'next/link';
 
 const ListNav = styled.header`
     width: 100%;
@@ -35,25 +36,25 @@ export default function Navbar() {
         <nav>
           <ul>
             <li>
-              <a href="#">All Healthy</a>
+              All Healthy
             </li>
             <li>
-              <a href="/causa">Causa</a>
+              <Link href='/causa'><a href="/causa">Causa</a></Link>
             </li>
             <li>
-              <a href="/projeto">Projeto</a>
+              <Link href='/projeto'><a href="/projeto">Projeto</a></Link>
             </li>
             <li>
-              <a href="/implementacao">Implementação</a>
+              <Link href='/implementacao'><a href="/implementacao">Implementação</a></Link>
             </li>
             <li>
-              <a href="/melhoria">Melhorias</a>
+              <Link href='/melhoria'><a href="/melhoria">Melhorias</a></Link>
             </li>
             <li>
-              <a href="/objetivo">Objetivo</a>
+              <Link href='/objetivo'><a href="/objetivo">Objetivo</a></Link>
             </li>
             <li>
-              <a href="/futuro">Futuro</a>
+              <Link href='/futuro'><a href="/futuro">Futuro</a></Link>
             </li>
           </ul>
 
