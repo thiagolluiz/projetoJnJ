@@ -39,22 +39,22 @@ export default function Navbar() {
               All Healthy
             </li>
             <li>
-              <Link href='/causa'><a href="/causa">Causa</a></Link>
+              <Link href='/causa'>Causa</Link>
             </li>
             <li>
-              <Link href='/projeto'><a href="/projeto">Projeto</a></Link>
+              <Link href='/projeto'>Projeto</Link>
             </li>
             <li>
-              <Link href='/implementacao'><a href="/implementacao">Implementação</a></Link>
+              <Link href='/implementacao'>Implementação</Link>
             </li>
             <li>
-              <Link href='/melhoria'><a href="/melhoria">Melhorias</a></Link>
+              <Link href='/melhoria'>Melhorias</Link>
             </li>
             <li>
-              <Link href='/objetivo'><a href="/objetivo">Objetivo</a></Link>
+              <Link href='/objetivo'>Objetivo</Link>
             </li>
             <li>
-              <Link href='/futuro'><a href="/futuro">Futuro</a></Link>
+              <Link href='/futuro'>Futuro</Link>
             </li>
           </ul>
 
